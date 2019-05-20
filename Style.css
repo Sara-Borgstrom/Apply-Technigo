@@ -1,0 +1,78 @@
+.hero_text {
+    background: black;
+    border-radius: 6px;
+    color: white;
+    font-size: 45px;
+    padding: 10px;
+    text-align: center;
+}
+
+body {
+    color: #999999;
+    font-family: 'Montserrat', sans-serif;
+}
+
+a {
+    color: #999999;
+}
+
+header {
+    align-items: center;
+    background-image: url(phototop.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    height: 50vh;
+    justify-content: center;
+}
+
+.textOne {
+    font-size: 35px;
+    position: relative;
+}
+
+.textTwo {
+    font-size: 25px
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 400px;
+    justify-content: space-around;
+    position: relative;
+    width: 100%;
+}
+
+.read_more_image {
+    position: relative;
+    width: 400px;
+}
+
+.image {
+    display: block;
+    height: 400px;
+    width: 100%;
+}
+
+.read_more_image:hover .text {
+    color: black;
+    text-shadow: 2px 2px #848483;
+}
+
+.text {
+    align-items: center;
+    display: flex;
+    font-size: 25px;
+    height: 100%;
+    justify-content: center;
+    left: 0;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    width: 100%;
+}
+.read_more_image:hover .image {
+    opacity: 0.6;
+}
